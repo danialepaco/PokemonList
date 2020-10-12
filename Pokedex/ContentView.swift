@@ -15,7 +15,7 @@ struct ContentView: View {
     @ObservedObject var list = PokemonList()
     
     init() {
-        getPokemon()
+        getPokemon() 
     }
     
     func delete(at offsets: IndexSet) {
